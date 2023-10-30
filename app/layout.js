@@ -21,7 +21,10 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
 
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <div className="css-blurry-gradient" />
+        {children}
+      </body>
     </html>
   );
 }

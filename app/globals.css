@@ -6,6 +6,19 @@ html{
   scroll-behavior: smooth;
 }
 
+.css-blurry-gradient {
+  position: fixed;
+  top: 20%;
+  left: 30%;
+  transform: translate(-70%, 0);
+  width: 800px;
+  height: 800px;
+	border-radius: 50% 22% 40% 80%;  
+	filter: blur(100px);
+  background: radial-gradient(circle at 20% 20%,rgba(76, 0, 255, 0.4), rgba(76, 0, 255, 0));
+  opacity: 0.2;
+}
+
 @layer base {
   
   body {

@@ -39,6 +39,15 @@ export default function Socials({ social }) {
   return (
     <div className="flex flex-row flex-wrap items-center justify-center gap-4 sm:gap-8">
       <a
+        href="https://yashnirmal.hashnode.dev/"
+        target="blank"
+        className="p-2 px-3 sm:px-4 sm:py-3 flex  gap-3 sm:gap-4 items-center border-[1px] border-gray-200 rounded-full duration-300 hover:-translate-y-1"
+      >
+        <Pencil strokeWidth={1} />
+        <p className="text-lg sm:text-xl">Blog</p>
+      </a>
+      
+      <a
         href="https://twitter.com/YashNirmalDev"
         target="blank"
         className="py-2 px-3 sm:px-4 sm:py-3 flex  gap-3 sm:gap-4 items-center border-[1px] border-gray-200 rounded-full duration-300 hover:-translate-y-1"
@@ -65,14 +74,7 @@ export default function Socials({ social }) {
         <p className="text-lg sm:text-xl">Github</p>
       </a>
       
-      <a
-        href="https://yashnirmal.hashnode.dev/"
-        target="blank"
-        className="p-2 px-3 sm:px-4 sm:py-3 flex  gap-3 sm:gap-4 items-center border-[1px] border-gray-200 rounded-full duration-300 hover:-translate-y-1"
-      >
-        <Pencil strokeWidth={1} />
-        <p className="text-lg sm:text-xl">My Blog</p>
-      </a>
+      
       
       <a
         href="mailto:yash15nirmal@gmail.com"
