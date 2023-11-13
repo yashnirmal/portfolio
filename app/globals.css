@@ -19,6 +19,10 @@ html{
   opacity: 0.2;
 }
 
+p,h1,h2,h3::selection{
+  background-color: 'rgb(99,102,241);'
+}
+
 @layer base {
   
   body {
