@@ -159,7 +159,7 @@ export default function Home() {
                   name="from_email"
                 />
               </div>
-              <textarea placeholder="Your message" name="message" />
+              <textarea placeholder="Your message" name="message" className="h-[150px]" />
               <div className="flex flex-col sm:flex-row justify-between sm:items-center">
                 <button type="submit" className="w-fit bg-zinc-700 mb-6 sm:m-0">
                   {isSending ? "SENDING..." : "SEND"}
