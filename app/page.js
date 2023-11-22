@@ -88,7 +88,7 @@ export default function Home() {
           </div>
 
           {/* Tech stack */}
-          <div className="w-full mt-20">
+          <div className="w-full mt-32">
             <div className="w-full h-[1px] bg-zinc-800 rounded-full mb-10" />
             <h2 className="font-semibold text-2xl mb-8 text-center">
               Tech Stack
@@ -106,7 +106,7 @@ export default function Home() {
           </div>
 
           {/* Experinces */}
-          <div className="w-full mt-20">
+          <div className="w-full mt-32">
             <div className="w-full h-[1px] bg-zinc-800 rounded-full mb-10" />
             <h2 className="font-semibold text-2xl mb-10 text-center">
               Experiences
@@ -119,7 +119,7 @@ export default function Home() {
           </div>
 
           {/* Projects */}
-          <div className="w-full mt-20">
+          <div className="w-full mt-32">
             <div className="w-full h-[1px] bg-zinc-800 rounded-full mb-10" />
             <h2 className="font-semibold text-2xl mb-10 text-center">
               Projects
@@ -132,7 +132,7 @@ export default function Home() {
           </div>
 
           {/* Socials */}
-          <div className="w-full mt-20">
+          <div className="w-full mt-32">
             <div className="w-full h-[1px] bg-zinc-800 rounded-full mb-10" />
             <h2 className="font-semibold text-2xl mb-10 text-center">
               My Socials
@@ -141,7 +141,7 @@ export default function Home() {
           </div>
 
           {/* Contact Me form */}
-          <form className="w-full my-20" ref={form} onSubmit={handleSendButton}>
+          <form className="w-full my-32" ref={form} onSubmit={handleSendButton}>
             <div className="w-full h-[1px] bg-zinc-800 rounded-full mb-10" />
             <h2 className="font-semibold text-2xl mb-10 text-center">
               Contact Me

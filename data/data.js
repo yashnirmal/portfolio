@@ -26,7 +26,7 @@ export const projects = [
     ],
     github: "https://github.com/yashnirmal/space-shooter",
     website: "https://space-shooter-home.vercel.app",
-    image: "/projects/spaceshooter.png",
+    images: ["/projects/shooter-1.png","/projects/shooter-2.png","/projects/shooter-3.png"],
   },
   {
     title: "Bloggator",
@@ -35,7 +35,7 @@ export const projects = [
     techstack: ["ReactJs", "NodeJs", "MongoDB", "ExpressJs", "Redux", "JWT"],
     github: "https://github.com/yashnirmal/mern-blog-website",
     website: "https://bloggator.netlify.app/",
-    image: "/projects/bloggator.png",
+    images: ["/projects/bloggator.png","/projects/blog-2.png","/projects/blog-4.png","/projects/blog-3.png"],
   },
   {
     title: "Raven Hunter Game",
@@ -44,7 +44,7 @@ export const projects = [
     techstack: ["HTML", "CSS", "Javascript", "LocalStorage"],
     github: "https://github.com/yashnirmal/raven-hunter-game",
     website: "https://raven-hunter.netlify.app/",
-    image: "/projects/raven.png",
+    images: ["/projects/raven.png"],
   },
   {
     title: "Crypto Tracker and News",
@@ -53,7 +53,7 @@ export const projects = [
     techstack: ["ReactJs", "CSS", "Fetch API", "MaterialUI"],
     github: "https://github.com/yashnirmal/crypto-news-and-tracker",
     website: "https://crypto-news-and-tracker.netlify.app/",
-    image: "/projects/crypto.png",
+    images: ["/projects/crypto.png","/projects/crypto-2.png"],
   },
 ];
 
@@ -66,7 +66,14 @@ export const experience = [
       "Developed Microservices for healthcare systems using NodeJs and Express. Implemented RabbitMq event broker and Ingress-Nginx API gateway. Deployed them with Docker and Kubernetes",
   },
   {
-    timeline: "June 2022 - present",
+    timeline: "Oct 2023 - present",
+    company: "Supergrow.ai",
+    position: "Frontend Engineeer",
+    description:
+      "Developing and maintaining the frontend of the website using ReactJs and TailwindCSS. Working on the UI/UX of the website, improving functionality and implementing features.",
+  },
+  {
+    timeline: "July 2022 - present",
     company: "Freelancing",
     position: "",
     description:
