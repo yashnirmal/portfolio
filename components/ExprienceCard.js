@@ -11,7 +11,11 @@ export default function ExprienceCard({ exp }) {
 
         <span className="italic text-sm">{exp.timeline}</span>
       </div>
-      <p>{exp.description}</p>
+      <div className="flex gap-5 flex-col">
+        {exp.description.map((data) => (
+          <p>{data}</p>
+        ))}
+      </div>
     </div>
   );
 }

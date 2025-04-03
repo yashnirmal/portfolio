@@ -26,7 +26,11 @@ export const projects = [
     ],
     github: "https://github.com/yashnirmal/space-shooter",
     website: "https://space-shooter-home.vercel.app",
-    images: ["/projects/shooter-1.png","/projects/shooter-2.png","/projects/shooter-3.png"],
+    images: [
+      "/projects/shooter-1.png",
+      "/projects/shooter-2.png",
+      "/projects/shooter-3.png",
+    ],
   },
   {
     title: "Bloggator",
@@ -35,7 +39,12 @@ export const projects = [
     techstack: ["ReactJs", "NodeJs", "MongoDB", "ExpressJs", "Redux", "JWT"],
     github: "https://github.com/yashnirmal/mern-blog-website",
     website: "https://bloggator.netlify.app/",
-    images: ["/projects/bloggator.png","/projects/blog-2.png","/projects/blog-4.png","/projects/blog-3.png"],
+    images: [
+      "/projects/bloggator.png",
+      "/projects/blog-2.png",
+      "/projects/blog-4.png",
+      "/projects/blog-3.png",
+    ],
   },
   {
     title: "Raven Hunter Game",
@@ -53,31 +62,45 @@ export const projects = [
     techstack: ["ReactJs", "CSS", "Fetch API", "MaterialUI"],
     github: "https://github.com/yashnirmal/crypto-news-and-tracker",
     website: "https://crypto-news-and-tracker.netlify.app/",
-    images: ["/projects/crypto.png","/projects/crypto-2.png"],
+    images: ["/projects/crypto.png", "/projects/crypto-2.png"],
   },
 ];
 
 export const experience = [
   {
+    timeline: "May 2024 - July 2023",
+    company: "Infobell IT Solution",
+    position: "Software Engineer",
+    description: [
+      "• Backend: Designed and implemented a secure vault solution Microservices API for a platform using Go, GRPC for high-performance communication between microservices, GraphQL to create API gateway for streamlined data querying, postgreSQL and S3 bucket.",
+      "• Optimized database performance by 25% using techniques like indexing and query rewriting.",
+      "• Frontend: Developed frontend in ReactJs as per the UI designs and integrated API.",
+    ],
+  },
+  {
     timeline: "June 2023 - July 2023",
     company: "Publicis Sapient",
     position: "SDE Intern",
-    description:
-      "Developed Microservices for healthcare systems using NodeJs and Express. Implemented RabbitMq event broker and Ingress-Nginx API gateway. Deployed them with Docker and Kubernetes",
+    description: [
+      "• Developed Microservices for healthcare systems using NodeJs and Express. Implemented RabbitMq event broker and Ingress-Nginx API gateway.",
+      "• Deployed the developed microservices with Docker and Kubernetes",
+    ],
   },
   {
     timeline: "Oct 2023 - present",
     company: "Supergrow.ai",
     position: "Frontend Engineeer",
-    description:
-      "Developing and maintaining the frontend of the website using ReactJs and TailwindCSS. Working on the UI/UX of the website, improving functionality and implementing features.",
+    description: [
+      "• Developing and maintaining the frontend of the website using ReactJs and TailwindCSS. Working on the UI/UX of the website, improving functionality and implementing features.",
+    ],
   },
   {
     timeline: "July 2022 - present",
-    company: "Freelancing",
+    company: "Opensource Contributions",
     position: "",
-    description:
-      "Helping clients to develop Fullstack and Frontend web applications",
+    description: [
+      "• Contributing to various open source contributions to various projects",
+      "• Completed HacktoberFest successfully by contributing to opensource projects.",
+    ],
   },
 ];
-
