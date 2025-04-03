@@ -1,14 +1,17 @@
 export const techstack = [
+  "Golang",
+  "gRPC",
+  "GraphQL",
+  "Typescript",
   "React",
   "NextJs",
   "Express",
   "NodeJs",
+  "PostgreSQL",
   "MongoDB",
   "AWS S3",
   "Docker",
   "MUI",
-  "Radix-UI",
-  "Vercel",
 ];
 
 export const projects = [
