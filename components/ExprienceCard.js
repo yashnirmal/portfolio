@@ -12,8 +12,8 @@ export default function ExprienceCard({ exp }) {
         <span className="italic text-sm">{exp.timeline}</span>
       </div>
       <div className="flex gap-5 flex-col">
-        {exp.description.map((data) => (
-          <p>{data}</p>
+        {exp.description.map((data, idx) => (
+          <p key={idx}>{data}</p>
         ))}
       </div>
     </div>
